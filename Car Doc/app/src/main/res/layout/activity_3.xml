@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#808000"
+    tools:context=".Activity3">
+
+    <TextView
+        android:id="@+id/reg_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Registration"
+        android:textColor="@color/purple_500"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/OwnerName_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/black"
+        android:hint="Owner Name"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawableTint="@color/purple_700"
+        android:isScrollContainer="false"
+        android:textColorHint="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/reg_app" />
+
+    <EditText
+        android:id="@+id/model_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/black"
+        android:hint=" Car Model"
+        android:inputType="text"
+        android:drawableLeft="@drawable/ic_baseline_directions_car_24"
+        android:drawableTint="@color/purple_700"
+        android:textColorHint="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/OwnerName_app" />
+
+
+    <EditText
+        android:id="@+id/millage_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/black"
+        android:hint="Millage"
+        android:drawableLeft="@drawable/ic_baseline_speed_24"
+        android:drawableTint="@color/purple_700"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/model_app" />
+
+    <EditText
+        android:id="@+id/year_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/black"
+        android:hint="Registered_Year"
+        android:drawableLeft="@drawable/ic_baseline_access_time_24"
+        android:drawableTint="@color/purple_700"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/millage_app" />
+
+    <EditText
+        android:id="@+id/type_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/black"
+        android:hint="Gear Type(Manual/Auto)"
+        android:drawableLeft="@drawable/ic_baseline_directions_car_24"
+        android:drawableTint="@color/purple_700"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/year_app" />
+
+    <EditText
+        android:id="@+id/phone_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/black"
+        android:hint="Contact Number"
+        android:inputType="phone"
+        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+        android:drawableTint="@color/purple_700"
+        android:textColorHint="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/type_app" />
+
+    <EditText
+        android:id="@+id/address_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/black"
+        android:hint="Address"
+        android:inputType="text"
+        android:drawableLeft="@drawable/ic_baseline_house_24"
+        android:drawableTint="@color/purple_700"
+        android:textColorHint="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/phone_app" />
+
+    <Button
+        android:id="@+id/submit_app"
+        android:layout_width="266dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="12dp"
+        android:text="Are You sure?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/address_app" />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="165dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="176dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="492dp"
+        android:layout_marginEnd="188dp"
+        android:text="submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

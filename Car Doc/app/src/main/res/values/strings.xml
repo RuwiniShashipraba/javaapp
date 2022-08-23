@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Car Doc</string>
+    <string name="car_docs">CAR DOCs</string>
+    <string name="welcome">Welcome</string>
+    <string name="password">Password</string>
+    <string name="car_doc">CAR DOC</string>
+    <string name="login">LOGIN</string>
+    <string name="user_name">User Name</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="click_here">Click Here</string>
+    <string name="invalid_name">Please input correct</string>
+</resources>
