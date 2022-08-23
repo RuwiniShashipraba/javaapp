@@ -1,0 +1,19 @@
+com/example/cardoc/BuildConfig.java
+ com.example.cardoc.BuildConfig
+com/example/cardoc/MainActivity.java
+ com.example.cardoc.MainActivity
+ com.example.cardoc.MainActivity$1
+ com.example.cardoc.MainActivity$2
+com/example/cardoc/Activity4.java
+ com.example.cardoc.Activity4
+ com.example.cardoc.Activity4$1
+com/example/cardoc/Activity5.java
+ com.example.cardoc.Activity5
+ com.example.cardoc.Activity5$1
+com/example/cardoc/Activity3.java
+ com.example.cardoc.Activity3
+ com.example.cardoc.Activity3$1
+ com.example.cardoc.Activity3$2
+com/example/cardoc/Activity2.java
+ com.example.cardoc.Activity2
+ com.example.cardoc.Activity2$1
